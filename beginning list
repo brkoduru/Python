@@ -1,37 +1,5 @@
-#Defining a list
-list_1=[1,2,3,4]
-#accessing values from the list
-print ("\n\nAccessing/Retriving a value from list: ",list_1)
-print ("list_1[2]=",list_1[2],"\n")
-#replace a value in the list
-print ("Replace/Update a value from list: ",list_1)
-list_1[2]=9
-print ("After replacing a value in list: ",list_1)
-print ("\n")
-#delete value from list
-print ("Displaying values in list_1: ",list_1)
-del list_1[2]
-print ("Deleting list_1[2]=9 from the list: ",list_1,"\n")
-#insert value into list
-print ("Displaying values in list_1: ",list_1)
-list_1.insert(1,10)
-print ("Inserting value 10 at index[1]: ",list_1,"\n")
-#Appending value into list
-print ("Displaying value in list_1: ",list_1)
-list_1.append('five')
-print ("Appending value to list_1: ",list_1,"\n")
-#Sorting integer type values in list
-list_2=[-3,-9,65,44,5,4,545,54,42,589.1,589.5]
-print ("Displaying value in list_2: ",list_2)
-list_2.sort()
-print ("Sorted elements in list_2: ",list_2,"\n")
-#sorting string type values in list
-list_3=['hello','apple','balance','test','aaa']
-print ("Displaying strings in list_3: ",list_3)
-list_3.sort()
-print ("Sorted elements in list_3: ",list_3,"\n")
-#Reversing values in list
-print ("Displaying reverse of strings in list_3: ",list_3)
-list_3.sort()
-list_3.reverse()
-print ("Sorted elements in list_3: ",list_3,"\n")
+#tuples and lists together
+empid=('Bob','APTS',[9999999999,54524])
+print (empid[2][0])
+empid[2][0]=8888888888
+print (empid)
